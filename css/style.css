@@ -14,6 +14,34 @@ clearfix::after {
 
 /* #endregion */
 
+/* #region Debug */
+
+.debug .main_container {
+    margin: auto;
+    margin-top: 2%;
+    width: 575px;
+    height: 600px;
+    background: chartreuse;
+}
+
+.debug .wildcard {
+    width: 30px;
+    height: 30px;
+    background: red;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+/* #endregion */
+
+/* #region Main */
+
+.wildcard {
+    float: left;
+}
+
+/* #endregion */
+
 /* Footer */
 
 footer {
