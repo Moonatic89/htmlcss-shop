@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-clearfix::after {
-    content: "";
+.clearfix::after {
+    content: " ";
     display: table;
     clear: both;
 }
@@ -24,8 +24,6 @@ clearfix::after {
 
 .debug .wildcard {
     background: teal;
-    margin-bottom: 5px;
-    margin-left: 1px;
 }
 
 /* #endregion */
@@ -46,6 +44,8 @@ clearfix::after {
     height: 48%;
     margin: 1%;
     position: relative;
+    margin-bottom: 5px;
+    margin-left: 1px;
 }
 
 img {
@@ -112,6 +112,10 @@ img {
 .sostenibility {
     background: #00875a;
     left: 30px;
+}
+
+#single_tag {
+    left: 0px;
 }
 
 .follow {
