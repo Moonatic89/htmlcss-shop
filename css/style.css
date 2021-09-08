@@ -16,11 +16,7 @@
 
 /* #region Debug */
 
-.debug .main_container {
-    width: 575px;
-    height: 600px;
-    background: chartreuse;
-}
+.main_container {}
 
 .debug .wildcard {
     background: teal;
@@ -31,6 +27,7 @@
 /* #region Main */
 
 .main_container {
+    width: 575px;
     margin: auto;
     margin-top: 2%;
     padding: 0 1%;
@@ -57,8 +54,8 @@ img {
 /* #region Wildcard Text */
 
 .text_section {
-    position: absolute;
-    bottom: 0px;
+    /* position: absolute; */
+    /* bottom: 0px; */
 }
 
 .brand, .type, .price {
@@ -95,27 +92,27 @@ img {
 
 /* #region Wildcard Tags */
 
-.pricing, .sostenibility {
-    display: block;
-    float: left;
+.tags_pair {
     position: absolute;
-    color: white;
     bottom: 50px;
+    float: left;
+    display: block;
+    color: white;
     font-size: .6rem;
+}
+
+.pricing, .sostenibility {
     padding: 3px;
 }
 
 .pricing {
     background: #eb0037;
+    margin-right: 5px;
 }
 
 .sostenibility {
     background: #00875a;
     left: 30px;
-}
-
-#single_tag {
-    left: 0px;
 }
 
 .follow {
