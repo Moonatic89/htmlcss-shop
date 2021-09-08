@@ -17,28 +17,73 @@ clearfix::after {
 /* #region Debug */
 
 .debug .main_container {
-    margin: auto;
-    margin-top: 2%;
     width: 575px;
     height: 600px;
     background: chartreuse;
 }
 
 .debug .wildcard {
-    width: 30px;
-    height: 30px;
-    background: red;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    background: teal;
+    margin-bottom: 5px;
+    margin-left: 1px;
 }
 
 /* #endregion */
 
 /* #region Main */
 
+.main_container {
+    margin: auto;
+    margin-top: 2%;
+    padding: 0 1%;
+}
+
+/* #region Wildcard */
+
 .wildcard {
     float: left;
+    width: 32%;
+    height: 48%;
+    margin: 1%;
+    position: relative;
 }
+
+img {
+    width: 100%
+}
+
+.text_section {
+    position: absolute;
+    bottom: 0px;
+}
+
+.brand, .type, .price {
+    line-height: .8rem;
+    font-size: .8rem;
+    display: block;
+}
+
+.brand {
+    font-size: .6rem;
+}
+
+.type {
+    font-weight: 700;
+}
+
+.price {
+    font-size: .7rem;
+}
+
+.red_text {
+    color: red;
+}
+
+.crossed_text {
+    text-decoration: line-through;
+}
+
+/* #endregion */
 
 /* #endregion */
 
