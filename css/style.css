@@ -52,15 +52,22 @@ img {
     width: 100%
 }
 
+/* #endregion */
+
+/* #region Wildcard Text */
+
 .text_section {
     position: absolute;
     bottom: 0px;
 }
 
 .brand, .type, .price {
-    line-height: .8rem;
-    font-size: .8rem;
+    line-height: .7rem;
     display: block;
+}
+
+.brand, .price {
+    font-size: .6rem;
 }
 
 .brand {
@@ -68,6 +75,7 @@ img {
 }
 
 .type {
+    font-size: .7rem;
     font-weight: 700;
 }
 
@@ -81,6 +89,37 @@ img {
 
 .crossed_text {
     text-decoration: line-through;
+}
+
+/* #endregion */
+
+/* #region Wildcard Tags */
+
+.pricing, .sostenibility {
+    display: block;
+    float: left;
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    font-size: .6rem;
+    padding: 3px;
+}
+
+.pricing {
+    background: #eb0037;
+}
+
+.sostenibility {
+    background: #00875a;
+    left: 30px;
+}
+
+.follow {
+    position: absolute;
+    background: white;
+    padding: 4px 8px;
+    top: 8px;
+    right: 0px
 }
 
 /* #endregion */
